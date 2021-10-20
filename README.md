@@ -658,4 +658,4 @@ Django version 3.2.8, using settings 'Welcome.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
-![](Screenshot from 2021-10-20 03-35-46.png)
+![Screenshot from 2021-10-20 03-35-46](https://user-images.githubusercontent.com/60980031/138056803-76ba12cc-b126-44b8-85e9-f83def496198.png)
