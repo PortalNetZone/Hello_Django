@@ -500,9 +500,9 @@ models.py
 tests.py
 views.py
 ```
-Once into the folder greet we get notice a __init__.py file, that turns a folder into a package. We have migrations that 
-will deal with a database. But for our "Hello, Django", we'll just need three things: apps.py, views.py, and a file urls.py
-that we have to create and add it here.
+Once into the folder greet we get notice a __init__.py file, that turns a folder into a package. We also have migrations that 
+will deal with a database. But for our "Hello, Django", we'll just need three things: apps.py, views.py, and a file urls.py,
+so, that third one we have to create and add it here.
 ### ` $ cat greet/apps.py `
 ```
 from django.apps import AppConfig
@@ -521,7 +521,7 @@ from django.shortcuts import render
 ```
 ####
 ## That's all set. Now, let's continue in the Pycharm IDE...
-By the time we run the command `python manage.py startapp <app_name>`, we're creating an application for your project Welcome,
+By the time we run the command `python manage.py startapp <app_name>`, we're creating an application for our project Welcome,
 which has to be added onto settings.py file in the section INSTALLED_APPS. We can see these settings in the file apps.py which
 will be placed to setting.py, and it should respect the syntax: `app_name.file_name.class_name`.
 
