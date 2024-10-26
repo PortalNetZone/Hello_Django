@@ -373,8 +373,8 @@ Django version 3.2.8, using settings 'Welcome.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
-So, in order for us to call the server out, we need the **manage.py** file, that in turn is a **.py** dependency file
-living within the project Welcome. So, you know how to run **.py** files, don't you? --**python** needs to be explicit before.
+Running the server out depends on the **manage.py** configuration file to be present in the root folder, which is a **.py** file
+within the project Welcome. So --**python** must be typed before running any **.py** file.
 ### `$ python manage.py runserver`
 ###
 Just a **hint:** Don't get confused!!!\
